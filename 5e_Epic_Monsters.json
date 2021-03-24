@@ -1,0 +1,766 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "eEpicMonsters",
+				"abbreviation": "EMON",
+				"full": "5e Epic Monsters",
+				"url": "https://www.enworld.org/threads/5e-epic-monster-updates.468639/",
+				"authors": [
+					"dave2008"
+				],
+				"convertedBy": [
+					"Teth"
+				]
+			}
+		],
+		"dateAdded": 1616596469,
+		"dateLastModified": 1616596469
+	},
+	"monster": [
+		{
+			"name": "Yeenoghu",
+			"shortName": true,
+			"isNamedCreature": true,
+			"source": "eEpicMonsters",
+			"size": "L",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 25,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "42d10 + 336",
+				"average": 756
+			},
+			"speed": {
+				"walk": 80
+			},
+			"str": 29,
+			"dex": 24,
+			"con": 27,
+			"int": 18,
+			"wis": 24,
+			"cha": 17,
+			"save": {
+				"con": "+19",
+				"dex": "+18",
+				"wis": "+18"
+			},
+			"skill": {
+				"acrobatics": "+18",
+				"athletics": "+20",
+				"intimidation": "+20",
+				"perception": "+18"
+			},
+			"senses": [
+				"truesight 180 ft."
+			],
+			"passive": 28,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "bludgeoning, piercing, and slashing from a +4 or lesser magical weapons"
+						}
+					]
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				},
+				{
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"resist": [
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"poison"
+					]
+				},
+				{
+					"resist": [
+						"necrotic"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						{
+							"special": "bludgeoning, piercing, and slashing that is nonmagical"
+						}
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"exhaustion"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"petrified"
+					]
+				}
+			],
+			"languages": [
+				"All",
+				"telepathy 360 ft"
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Yeenoghu’s spell casting ability is Constitution (spell save {@dc 27}, +19 to hit with attack spells). Yeenoghu can innately cast the following spells at 6th level or higher, requiring no material components:"
+					],
+					"will": [
+						"{@spell comprehend languages}",
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell hunter's mark}",
+						"{@spell locate creature}",
+						"{@spell polymorph}",
+						"{@spell see invisibility}",
+						"{@spell telekinesis}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell arcane gate}",
+							"{@spell contagion}",
+							"{@spell dispel magic}",
+							"{@spell fear}",
+							"{@spell haste} (filth fever)",
+							"{@spell teleport}"
+						],
+						"1e": [
+							"{@spell disintegrate}",
+							"{@spell forbiddance}",
+							"{@spell symbol}"
+						]
+					},
+					"ability": "con",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When the yeenoghu reduces a creature to 0 hit points with a melee attack on its turn, the yeenoghu can take a bonus action to move up to half its speed and make another attack."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless Yeenoghu wishes to be affected, it is immune to spells of 6th level or lower and has advantage on savings throws of all spells and magical effects."
+					]
+				},
+				{
+					"name": "Escape the Horde",
+					"entries": [
+						"Opportunity attacks against Yeenoghu have disadvantage."
+					]
+				},
+				{
+					"name": "Favored Enemy",
+					"entries": [
+						"Yeenoghu’s favored enemies are: celestials, giants, minotaurs, and undead. Yeenoghu has advantage on Wisdon check to track these creatures and Intelligence checks to recall information about these creatures."
+					]
+				},
+				{
+					"name": "Foe Slayer",
+					"entries": [
+						"One per turn Yeenoghu can add 7 hit points of damage to an attack against one of its favored enemies."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Yeenoghu’s weapon attacks are treated as +3 magical weapons, except flail which is +4."
+					]
+				},
+				{
+					"name": "Ravage",
+					"entries": [
+						"When attacking a {@condition prone} creature, Yeenoghu makes a critical hit on a roll of 15-20 (if the role below 20 is also a hit )."
+					]
+				},
+				{
+					"name": "Banishment",
+					"entries": [
+						"When a demon lord drops to 0 hit points, its body is destroyed but its essence travels back to its domain, and is unable to take physical form for a time."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Yeenoghu makes three flail attacks, or two claw attacks and a bite or fail attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 20} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d8 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}35 ({@damage 4d12 + 9}) piercing damage, plus 33 ({@damage 6d10}) necrotic damage."
+					]
+				},
+				{
+					"name": "Flail",
+					"entries": [
+						"{@atk mw} {@hit 21} to hit, reach 15 ft., one target. {@h}44 ({@damage 6d8 + 17}) bludgeoning damage, plus one of the following effects chosen by Yeenoghu or at random:",
+						"1. The attack deals an extra 18 ({@damage 4d8}) bludgeoning damage.",
+						"2. The target must succeed on a {@dc 24} Constitution saving throw or be {@condition paralyzed} until the start of Yeenoghu’s next turn.",
+						"3. The target must succeed on a {@dc 24} Constitution saving throw or be affected by the {@spell confusion} spell until the start of Yeenoghu’s next turn.",
+						"On a critical hit, in addition to the normal extra damage, the target suffers all three effects (with confusion manifesting after the target has been {@condition paralyzed} for one turn)."
+					]
+				},
+				{
+					"name": "Summoning (1/day)",
+					"entries": [
+						"Yeenoghu magically summons (100% chance of success) {@dice 1d10 + 10} gnoll fangs of yeenoghu."
+					]
+				},
+				{
+					"name": "Swat Away",
+					"entries": [
+						"Yeenoghu makes a flail attack. If the attack hits, instead of one of the three extra effects listed in the flail attack, the target must succeed on a {@dc 25} Strength saving throw or be pushed 15 feet away from Yeenoghu. If the target fails the saving throw by 5 or more it is also knocked {@condition prone}."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Hapless Victim",
+					"entries": [
+						"Yeenoghu can use a bonus action to make a bite attack against a {@condition prone} target within its reach."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Giant Killer",
+					"entries": [
+						"Yeenoghu’s can use a reaction to immediately attack a huge or larger creature after it hits or misses him with an attack."
+					]
+				},
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Yeenoghu’s can use a reaction to halve the damage from an attack it can see and that hits it."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Yeenoghu can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. If Yeenoghu has unspent legendary actions at the end of the round, it may spend and immediately use its remaining legendary actions. Yeenoghu regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Yeenoghu makes two claw attacks, or a bite attack."
+					]
+				},
+				{
+					"name": "Flail",
+					"entries": [
+						"Yeenoghu makes flail or swat away attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Yeenoghu can move up to half its speed."
+					]
+				},
+				{
+					"name": "Regenerate",
+					"entries": [
+						"Yeenoghu regenerates 20 hit points."
+					]
+				},
+				{
+					"name": "Spell Casting",
+					"entries": [
+						"Yeenoghu casts a spell."
+					]
+				},
+				{
+					"name": "Charge (2 actions)",
+					"entries": [
+						"Yeenoghu moves up to its speed then makes a flail attack. If Yeenoghu moves at least 10 feet the target must succeed on a {@dc 23} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Savage (2 actions)",
+					"entries": [
+						"Yeenoghu makes a bite attack against each creature within 10 feet of it."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Yeenoghu",
+				"source": "MTF"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MTF/Yeenoghu.jpg?v=1.125.1"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Yeenoghu.png?v=1.125.1",
+			"traitTags": [
+				"Magic Weapons",
+				"Rampage"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"prone"
+			]
+		},
+		{
+			"name": "Baphomet",
+			"shortName": true,
+			"isNamedCreature": true,
+			"source": "eEpicMonsters",
+			"size": "H",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "40d12 + 360",
+				"average": 840
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 31,
+			"dex": 16,
+			"con": 28,
+			"int": 20,
+			"wis": 26,
+			"cha": 20,
+			"save": {
+				"con": "+20",
+				"dex": "+14",
+				"wis": "+19",
+				"str": "+21"
+			},
+			"skill": {
+				"athletics": "+21",
+				"intimidation": "+21",
+				"perception": "+19"
+			},
+			"senses": [
+				"truesight 240 ft."
+			],
+			"passive": 29,
+			"resist": [
+				{
+					"resist": [
+						{
+							"special": "bludgeoning, piercing, and slashing"
+						}
+					]
+				},
+				{
+					"resist": [
+						"cold"
+					]
+				},
+				{
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"resist": [
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"poison"
+					]
+				},
+				{
+					"resist": [
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"thunder"
+					]
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						{
+							"special": "bludgeoning, piercing, and slashing that is nonmagical"
+						}
+					]
+				}
+			],
+			"conditionImmune": [
+				{
+					"conditionImmune": [
+						"poisoned"
+					]
+				},
+				{
+					"conditionImmune": [
+						"charmed"
+					]
+				},
+				{
+					"conditionImmune": [
+						"exhaustion"
+					]
+				},
+				{
+					"conditionImmune": [
+						"frightened"
+					]
+				},
+				{
+					"conditionImmune": [
+						"petrified"
+					]
+				}
+			],
+			"languages": [
+				"All",
+				"telepathy 500 ft"
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Baphomet’s spell casting ability is Charisma (spell save {@dc 24}, +16 to hit with attack spells). Baphomet can innately cast the following spells at 6th level, requiring no material components:"
+					],
+					"will": [
+						"{@spell comprehend languages}",
+						"{@spell darkness}",
+						"{@spell detect magic}",
+						"{@spell detect thoughts}",
+						"{@spell dominate beast}",
+						"{@spell hunter's mark}",
+						"{@spell polymorph}",
+						"{@spell see invisibility}",
+						"{@spell telekinesis}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell arcane gate}",
+							"{@spell dispel magic}",
+							"{@spell fear}",
+							"{@spell maze}",
+							"{@spell teleport}",
+							"{@spell wall of stone} (double all effects)"
+						],
+						"1e": [
+							"{@spell earthquake}",
+							"{@spell forbiddance}",
+							"{@spell reverse gravity}",
+							"{@spell symbol}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If Baphomet moves at least 10 feet straight toward a target and then hits with a gore attack on the same turn, the target takes an extra 55 ({@damage 10d10}) piercing damage. If the target must succeed on a {@dc 27} Strength saving throw or be pushed 15 feet away if it is gargantuan, 30 feet away if it is huge, 60 feet away if it is larger or 120 feet away if it is medium or smaller, and knocked {@condition prone}.",
+						"If a pushed target strikes a solid surface the target takes 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was pushed. If the target is pushed at another creature, that creature must succeed on a {@dc 29} Dexterity saving throw or take the same damage and be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Limited Magic Immunity",
+					"entries": [
+						"Unless Baphomet wishes to be affected, it is immune to spells of 4th level or lower and has advantage on savings throws of all spells and magical effects."
+					]
+				},
+				{
+					"name": "Danger Sense",
+					"entries": [
+						"Baphomet’s has advantage on Dexterity checks and saving throws against threats it can see."
+					]
+				},
+				{
+					"name": "Heartcleaver",
+					"entries": [
+						"The Heartcleaver is +4 glaive artifact (included in the attack). While a creature is attuned to it and raging it cause triple weapon damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Labyrinthine Recall",
+					"entries": [
+						"Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"Baphomet’s weapon attacks are treated as +3 magical weapons, except hearvcleaver which is +4."
+					]
+				},
+				{
+					"name": "Rage",
+					"entries": [
+						"Baphomet’s has advantage on Strength checks and saving throws and gains a +10 bonus to damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Banishment",
+					"entries": [
+						"When a demon lord drops to 0 hit points, its body is destroyed but its essence travels back to its domain, and is unable to take physical form for a time."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of his trun, Baphomet can gain advantage on all melee attack rolls during that turn, but attack rolls against him",
+						"have advantage until the start of his next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Baphomet makes two attacks: any combination of fist and heartcleaver attacks."
+					]
+				},
+				{
+					"name": "Fists",
+					"entries": [
+						"{@atk mw} {@hit 21} to hit, reach 10 ft., one target. {@h}59 ({@damage 6d12 + 20}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 21} to hit, reach 10 ft., one target. {@h}75 ({@damage 10d10 + 20}) piercing damage."
+					]
+				},
+				{
+					"name": "Heartcleaver",
+					"entries": [
+						"{@atk mw} {@hit 21} to hit, reach 15 ft., one target. {@h}93 ({@damage 10d12 + 28}) slashing damage. ",
+						"This attack does an extra 32 ({@damage 5d12}) slashing damage on a critical hit."
+					]
+				},
+				{
+					"name": "Howl {@recharge 5}",
+					"entries": [
+						"Baphomet roars and all creatures within 240 feet of him must make a {@dc 28} Constitution saving throw taking 65 ({@damage 10d12}) thunder damage on failed save, and half as much damage on a successful one. ",
+						"In addition, each creature within 240 feet that can hear the roar must succeed on a {@dc 25} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the frightening effects of Baphomet’s howl for the next 24 hours."
+					]
+				},
+				{
+					"name": "Unholy Water {@recharge 5}",
+					"entries": [
+						"Baphomet spits forth unholy water in a 90 foot cone. All creatures within the cone must make a {@dc 26} Dexterity saving throw taking 130 ({@damage 20d12}) necrotic damage on failed save, and half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Summoning (1/day)",
+					"entries": [
+						"Baphomet magically summons (100% chance of success) {@dice 1d10 + 6} minotaurs, or, {@dice 1d4} goristros."
+					]
+				},
+				{
+					"name": "Whirlwind Frenzy {@recharge 5}",
+					"entries": [
+						"Baphomet makes a heartcleaver attack on all targets within 15 feet of him."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"Yeenoghu can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. If Yeenoghu has unspent legendary actions at the end of the round, it may spend and immediately use its remaining legendary actions. Yeenoghu regains spent legendary actions at the start of its turn."
+			],
+			"legendaryActions": 3,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Baphomet makes a fist attack, or cast a spell."
+					]
+				},
+				{
+					"name": "Heartcleaver (2/round",
+					"entries": [
+						"Baphomet makes a heart cleaver attack."
+					]
+				},
+				{
+					"name": "Charge (2 actions)",
+					"entries": [
+						"Baphomet moves up to its speed then makes a gore attack."
+					]
+				},
+				{
+					"name": "Frenzy (3 actions)",
+					"entries": [
+						"Whirlwind frenzy recharges and Baphomet",
+						"uses it immediately."
+					]
+				},
+				{
+					"name": "Unholy (3 actions, 1/day)",
+					"entries": [
+						"Unholy water recharges and Baphomet",
+						"uses it immediately."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Baphomet",
+				"source": "MTF"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MTF/Baphomet.jpg?v=1.125.1"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Baphomet.png?v=1.125.1",
+			"traitTags": [
+				"Charge",
+				"Magic Weapons",
+				"Reckless"
+			],
+			"senseTags": [
+				"U"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"TP"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S",
+				"T"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			]
+		}
+	]
+}
